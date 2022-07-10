@@ -47,7 +47,7 @@ public:
            return removeLeafNodes(root,target);
         }
         root->right = removeLeafNodes(root->right,target);
-        if(root->left == NULL && root->right == NULL){
+       if(root->left == NULL && root->right == NULL){
            
             return removeLeafNodes(root,target);
         }
