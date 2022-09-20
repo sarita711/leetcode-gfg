@@ -9,7 +9,7 @@ public:
             {
                 return n;
             }
-            n++;
+            n=n*2;
         }
         return -1;
     }
