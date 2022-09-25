@@ -15,7 +15,7 @@ public:
         if(n==0)
         {
 
-            return 0;
+            return ans;
         }
       return ans-1;
         
