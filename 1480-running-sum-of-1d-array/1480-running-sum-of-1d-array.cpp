@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> runningSum(vector<int>& nums) {
         
-        int sum=0;
+         int sum=0;
         
         int x=nums.size();
         for(int i=0;i<x;++i)
@@ -16,6 +16,7 @@ public:
         
         
         return nums;
+        
         
     }
 };
