@@ -38,7 +38,7 @@ public:
             }
             v.clear();
             v=v1;
-            
+            v1.clear();
             
             
             return true;
